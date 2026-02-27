@@ -7,7 +7,6 @@ import pickle
 import json
 
 # Add source path if needed
-sys.path.append('/home/pjtka/hyperbolic/src')
 
 from misc.create_diagnostic_tree import TAXONOMY_TREE, SkinConditions, BaseDataframeHandler
 
@@ -16,10 +15,10 @@ from misc.create_diagnostic_tree import TAXONOMY_TREE, SkinConditions, BaseDataf
 EMBEDDING_DIM = 10 
 
 # Paths
-image_path = '/scratch/pjtka/meladata-24112025/11222025-dump/2025-11-22_00.48.38_images'
-training_assesment_path = '/scratch/pjtka/meladata-24112025/11222025-dump/training-assessments-112125.tsv'
-training_skin_conds_path = '/scratch/pjtka/meladata-24112025/11222025-dump/training-skin-conditions-112125.tsv'
-diagnosis_path = '/home/pjtka/hyperbolic/dermloopapi_public_dermloop_diagnosis.csv'
+image_path = ""
+training_assesment_path = ""
+training_skin_conds_path = ""
+diagnosis_path = ""
 
 output_base_dir = '/scratch/pjtka/hyperbolic/meta-data'
 os.makedirs(output_base_dir, exist_ok=True)
