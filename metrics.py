@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import json
 import sys
-sys.path.append('/home/pjtka/hyperbolic/src/misc')
+sys.path.append('/src/misc')
 from create_diagnostic_tree import TAXONOMY_TREE
 
 
