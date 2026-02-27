@@ -1,6 +1,6 @@
 
 import sys
-sys.path.append('/home/pjtka/hyperbolic/src')
+
 import torch
 import numpy as np
 import os 
@@ -14,14 +14,7 @@ import math
 
 EMBEDDING_DIM = 10 
 
-# Your Count Dictionary
-
-image_path = '/scratch/pjtka/meladata-24112025/11222025-dump/2025-11-22_00.48.38_images'
-training_assesment_path = '/scratch/pjtka/meladata-24112025/11222025-dump/training-assessments-112125.tsv'
-training_skin_conds_path = '/scratch/pjtka/meladata-24112025/11222025-dump/training-skin-conditions-112125.tsv'
-diagnosis_path = '/home/pjtka/hyperbolic/dermloopapi_public_dermloop_diagnosis.csv'
-
-save_path = os.path.join('/scratch/pjtka/hyperbolic/meta-data', 'melanoma-nevus-meta-data.csv')
+'melanoma-nevus-meta-data.csv')
 
 diagnosis = BaseDataframeHandler(diagnosis_path)
 skin_conds = SkinConditions(training_skin_conds_path, diagnosis)
