@@ -6,7 +6,7 @@ import pickle
 import json
 import sys
 # Add source path if needed
-sys.path.append('/home/pjtka/hyperbolic/src')
+sys.path.append('hyperbolic/src')
 
 from misc.create_diagnostic_tree import TAXONOMY_TREE, SkinConditions, BaseDataframeHandler
 
