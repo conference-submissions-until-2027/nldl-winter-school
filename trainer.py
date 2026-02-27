@@ -16,8 +16,8 @@ from pathlib import Path
 import pickle
 import csv
 
-ISIC_IMAGE_PATH = "/scratch/pjtka/isic/ISIC_2019_Training_Input"
-ISIC_LABELS_PATH = "/scratch/pjtka/isic/ISIC_2019_Training_Input/ISIC_2019_Training_GroundTruth.csv"
+ISIC_IMAGE_PATH = ""
+ISIC_LABELS_PATH = ""
 
 def load_isic_data(csv_path, data_dir):
     """
